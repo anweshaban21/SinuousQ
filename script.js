@@ -119,7 +119,7 @@ if (hiscore === null) {
     localStorage.setItem("hiscore", JSON.stringify(hiscoreval))
 } else {
     hiscoreval = JSON.parse(hiscore);
-    hiscorebox.innerHTML = "Hiscore: " + hiscore;
+    hiscorebox.innerHTML = "Highscore: " + hiscore;
 }
 
 
